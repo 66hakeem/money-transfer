@@ -11,6 +11,7 @@
 		BABB1BB629C0758100DA6F29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB1BB529C0758100DA6F29 /* ContentView.swift */; };
 		BABB1BB829C0758300DA6F29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABB1BB729C0758300DA6F29 /* Assets.xcassets */; };
 		BABB1BBB29C0758300DA6F29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABB1BBA29C0758300DA6F29 /* Preview Assets.xcassets */; };
+		BABB1BC529C07A8800DA6F29 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB1BC429C07A8800DA6F29 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BABB1BB529C0758100DA6F29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BABB1BB729C0758300DA6F29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BABB1BBA29C0758300DA6F29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BABB1BC429C07A8800DA6F29 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,8 @@
 		BABB1BB229C0758100DA6F29 /* money-transfer */ = {
 			isa = PBXGroup;
 			children = (
+				BABB1BC329C0776400DA6F29 /* Views */,
 				BABB1BB329C0758100DA6F29 /* money_transferApp.swift */,
-				BABB1BB529C0758100DA6F29 /* ContentView.swift */,
 				BABB1BB729C0758300DA6F29 /* Assets.xcassets */,
 				BABB1BB929C0758300DA6F29 /* Preview Content */,
 			);
@@ -65,6 +67,15 @@
 				BABB1BBA29C0758300DA6F29 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BABB1BC329C0776400DA6F29 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BABB1BC429C07A8800DA6F29 /* CardView.swift */,
+				BABB1BB529C0758100DA6F29 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BABB1BB629C0758100DA6F29 /* ContentView.swift in Sources */,
+				BABB1BC529C07A8800DA6F29 /* CardView.swift in Sources */,
 				BABB1BB429C0758100DA6F29 /* money_transferApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
